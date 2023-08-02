@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #04AA6D;
+}
+
+footer {
+    background-color: #04AA6D;
+    display: flex;
+    text-align: center;
+}
+
+.footer {
+padding-top: 10px;
+}
+.copyright {
+    align-items: right;
+    font-size: 14px;
+}
+
+#nav {
+    border-bottom: 2px double black;
+    color: black;
+    padding-top: 10px;
+    padding-right: 10px; 
+    padding-bottom: -50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navItem {
+    padding-top: 20px;
+}
+
+.logo-img {
+    width: 12%;
+    height: 12%;
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+}
+  
+.dropdown {
+    margin-left: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    display: inline-block;
+    border: 2px double black;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #04AA6D;}
+ 
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: #04AA6D;}
+
+.signin a{
+    text-decoration: none;
+    color: black;
+}
+
+.signin {
+    margin-left: 80px;
+    padding-top: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    mix-blend-mode: multiply;
+    padding: 10px 20px 10px;
+    border-radius: 10px;
+}
+
+.searchInput {
+    background-color: #ffffff;
+  }
+
+.searchInput::placeholder {
+    background-color: #f1f1f1;
+    color:black;
+}
+
+.searchIcon {
+    padding-left: 5px;
+}
+
+.masthead {
+    justify-items: center;
+}
